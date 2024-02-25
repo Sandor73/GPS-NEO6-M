@@ -1,0 +1,56 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp"
+    },
+    "workbench.panel.opensMaximized": "preserve",
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.editor.tabSizing": "fit",
+    "workbench.productIconTheme": "Default",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "side",
+    "workbench.view.alwaysShowHeaderActions": false,
+    "workbench.editor.editorActionsLocation": "default",
+    "workbench.editor.empty.hint": "text",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": true,
+    "platformio-ide.toolbar": [
+
+
+
+        {
+            "text": "$(home)",
+            "tooltip": "PlatformIO: Дом",
+            "commands": "platformio-ide.showHome"
+        },
+        {
+            "text": "$(check)",
+            "tooltip": "PlatformIO: Отладка",
+            "commands": "platformio-ide.build"
+        },
+        {
+            "text": "$(arrow-right)",
+            "tooltip": "PlatformIO: Загрузить",
+            "commands": "platformio-ide.upload"
+        },
+        {
+            "text": "$(trashcan)",
+            "tooltip": "PlatformIO: Очистить",
+            "commands": "platformio-ide.clean"
+        },
+        {
+            "text": "$(beaker)",
+            "tooltip": "PlatformIO: Тест",
+            "commands": "platformio-ide.test"
+        },
+        {
+            "text": "$(plug)",
+            "tooltip": "PlatformIO: Последовательный монитор",
+            "commands": "platformio-ide.serialMonitor"
+        },
+        {
+            "text": "$(terminal)",
+            "tooltip": "PlatformIO: Новый терминал",
+            "commands": "platformio-ide.newTerminal"
+        }
+    ]
+}
