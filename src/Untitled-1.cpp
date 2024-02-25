@@ -24,6 +24,7 @@
 
 U8G2_ST7565_ERC12864_ALT_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/15, /* data=*/2, /* cs=*/5, /* dc=*/4, /* reset=*/16); // for ESP32  contrast improved version for ERC12864
 // U8G2_ST7565_ERC12864_ALT_F_4W_SW_SPI u8g2(U8G2_R0, /* scl=*/13, /* si=*/11, /* cs=*/10, /* rs=*/9, /* rse=*/8);
+//Дисплей -  GMG12864-06D Ver:2.0
 // NEO-6m - RXPin = 1, TXPin = 3;
 
 static const uint32_t GPSBaud = 9600;
